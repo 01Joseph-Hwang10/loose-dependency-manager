@@ -1,0 +1,16 @@
+schemes:
+  lodash:
+    uses: github
+    with:
+      url: https://github.com/lodash/lodash
+      ref: main
+
+dependencies:
+  clamp: lodash:///src/clamp.ts -> src/utils/clamp.ts
+  reset.css: |
+    https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
+    -> src/styles/reset.css
+
+config:
+  parallel:
+    workers: 4
