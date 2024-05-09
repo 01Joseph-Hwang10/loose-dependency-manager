@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ldm"
+name = "loose-dependency-manager"
 version = "0.0.1"
 description = "Tool for managing code dependencies in a loosely-coupled way."
 classifiers = [
@@ -45,6 +45,7 @@ pytest = "^7.4.3"
 
 
 [tool.poetry.scripts]
+loose-dependency-manager = "ldm.__main__:cli"
 ldm = "ldm.__main__:cli"
 
 [tool.poe.tasks]

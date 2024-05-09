@@ -1,6 +1,6 @@
-# Contributing to `ldm`
+# Contributing to `loose-dependency-manager`
 
-Contributions are always welcome. Before contributing please read the [code of conduct](./CODE_OF_CONDUCT.md) & [search the issue tracker](https://github.com/01Joseph-Hwang10/ldm/issues); Your issue may have already been discussed or fixed in master. To contribute, [fork](https://docs.github.com/get-started/quickstart/fork-a-repo) this repository, commit your changes, & [send a pull request](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+Contributions are always welcome. Before contributing please read the [code of conduct](./CODE_OF_CONDUCT.md) & [search the issue tracker](https://github.com/01Joseph-Hwang10/loose-dependency-manager/issues); Your issue may have already been discussed or fixed in master. To contribute, [fork](https://docs.github.com/get-started/quickstart/fork-a-repo) this repository, commit your changes, & [send a pull request](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
 
 ## Pull Request Guidelines
