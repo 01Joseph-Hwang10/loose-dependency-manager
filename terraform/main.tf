@@ -1,5 +1,5 @@
 resource "github_repository" "ldm" {
-  name         = "loose-dependency-manager"
+  name         = "ldm"
   visibility   = "public"
   homepage_url = "https://pypi.org/project/ldm/"
   topics = [

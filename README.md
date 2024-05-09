@@ -1,4 +1,4 @@
-# Loose Dependency Manager
+# `ldm`: Loose Dependency Manager
 
 [![PyPI version](https://badge.fury.io/py/ldm.svg)](https://pypi.org/project/ldm)
 [![Testsuite](https://github.com/01Joseph-Hwang10/ldm/workflows/Test%20and%20Lint/badge.svg)](https://github.com/01Joseph-Hwang10/ldm/actions?query=workflow%3A"Test+and+Lint")
