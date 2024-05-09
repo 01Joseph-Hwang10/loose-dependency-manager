@@ -49,8 +49,9 @@ ldm = "ldm.__main__:cli"
 
 [tool.poe.tasks]
 test = "python -m pytest"
-lint = "flake8 jtd_codebuild"
-check-format = "black jtd_codebuild --check"
+lint = "flake8 ldm"
+format = "black ldm"
+check-format = "black ldm --check"
 
 [tool.black]
 line-length = 88
