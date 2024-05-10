@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.0](https://github.com/01Joseph-Hwang10/loose-dependency-manager/compare/loose-dependency-manager-v0.1.1...loose-dependency-manager-v0.2.0) (2024-05-10)
+
+
+### Features
+
+* can specifiy targets ([500d377](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/500d37727c59ac1a1ce21e5cacf8bcfc3e592921))
+* improved logging ([b43180a](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/b43180aec1a8ec170aefab099c811e32e4ae6cff))
+* pretty error logs ([10ffff4](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/10ffff426e789c2816b248bc45d71ab8e72fb302))
+
 ## [0.1.1](https://github.com/01Joseph-Hwang10/loose-dependency-manager/compare/loose-dependency-manager-v0.1.0...loose-dependency-manager-v0.1.1) (2024-05-09)
 
 
