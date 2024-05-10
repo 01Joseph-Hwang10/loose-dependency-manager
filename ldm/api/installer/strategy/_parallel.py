@@ -11,9 +11,8 @@ class ParallelInstallStrategy(InstallStrategy[ParallelConfig]):
 
             def create_install_task(dependency: Dependency) -> None:
                 def install():
-                    self.logger.debug(f"Installing {dependency.name}")
                     dependency.install()
-                    self.logger.debug(f"Installed {dependency.name}")
+                    self.logger.info(f"Installed {dependency.name}")
 
                 return install
 

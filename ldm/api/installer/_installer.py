@@ -87,4 +87,4 @@ class Installer(Component):
 
         strategy.install(dependencies)
 
-        self.logger.info("Dependencies installed")
+        self.logger.success("Dependencies installed")
