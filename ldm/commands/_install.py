@@ -7,7 +7,7 @@ from ..api.config import CONFIG_FILE_NAME
 
 
 class InstallCommand(Command):
-    def run(self):
+    def run(self, targets: list[str] | None = None):
         def read_config() -> dict | None:
             if exists(CONFIG_FILE_NAME):
                 with open(CONFIG_FILE_NAME, "r") as f:
@@ -20,5 +20,5 @@ class InstallCommand(Command):
             self.logger.error("No configuration file found")
             exit(1)
 
-        Installer(logger=self.logger).install(config)
+        Installer(logger=self.logger).install(config, targets)
         exit(0)

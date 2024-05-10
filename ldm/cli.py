@@ -13,7 +13,8 @@ def cli():
 
 
 @cli.command("install")
-def install():
+@click.argument("dependencies", nargs=-1)
+def install(dependencies: list[str]):
     debug = os.environ.get("DEBUG", None)
     logger = ClickLogger(level=1 if debug else 2)
-    InstallCommand(logger=logger).run()
+    InstallCommand(logger=logger).run(targets=dependencies or None)

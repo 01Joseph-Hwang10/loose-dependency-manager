@@ -23,7 +23,11 @@ class Installer(Component):
             "https": HTTPSSchemeFactory(logger=self.logger).create({}),
         }
 
-    def install(self, config: dict) -> None:
+    def install(
+        self,
+        config: dict,
+        targets: list[str] | None = None,
+    ) -> None:
         def parse_schemes(schemes: dict[str, SchemeConfig]) -> dict[str, Scheme]:
             def create_scheme(
                 name: str,
@@ -77,6 +81,10 @@ class Installer(Component):
             logger=self.logger,
         )
 
-        strategy.install(list(parse_dependencies(config.dependencies)))
+        dependencies = list(parse_dependencies(config.dependencies))
+        if targets is not None:
+            dependencies = list(filter(lambda d: d.name in targets, dependencies))
+
+        strategy.install(dependencies)
 
         self.logger.info("Dependencies installed")
