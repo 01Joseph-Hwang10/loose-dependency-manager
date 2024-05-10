@@ -45,6 +45,13 @@ Finally, run `ldm install` to install the dependencies
 ldm install
 ```
 
+> [!NOTE]
+> You can also run `ldm install [...dependencies]` to install specific dependencies.
+>  
+> ```bash
+> ldm install clamp
+> ```
+
 ## API Documentation
 
 > TODO: description
