@@ -44,8 +44,10 @@ class Installer(Component):
                 schemes: dict[str, SchemeConfig],
             ) -> Generator[tuple[str, Scheme], None, None]:
                 for name, scheme_config in schemes.items():
+                    self.logger.debug(f"Parsing scheme: {name}")
                     yield create_scheme(name, scheme_config)
 
+            self.logger.debug("Parsing schemes")
             return dict(list(create_schemes(schemes)))
 
         def parse_dependencies(
@@ -66,7 +68,9 @@ class Installer(Component):
                     lambda: self.schemes[scheme].install(entry),
                 )
 
+            self.logger.debug("Parsing dependencies")
             for name, entry in dependencies.items():
+                self.logger.debug(f"Parsing dependency: {name}")
                 yield parse_dependency(name, entry)
 
         self.logger.info("Installing dependencies...")
@@ -80,7 +84,9 @@ class Installer(Component):
         )
 
         dependencies = list(parse_dependencies(config.dependencies))
+
         if targets is not None:
+            self.logger.debug("`targets`_ are given. Filtering dependencies")
             dependencies = list(filter(lambda d: d.name in targets, dependencies))
 
         strategy.install(dependencies)

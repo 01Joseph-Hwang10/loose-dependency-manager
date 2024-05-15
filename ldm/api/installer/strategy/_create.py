@@ -10,6 +10,7 @@ def create_install_strategy(
     config: Any,
     logger: Logger | None = None,
 ) -> InstallStrategy:
+    logger.debug(f"Creating install strategy: {strategy}")
     if strategy == "sequential":
         return SequentialInstallStrategy(config.sequential, logger=logger)
     elif strategy == "parallel":
