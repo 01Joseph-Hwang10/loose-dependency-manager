@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/01Joseph-Hwang10/loose-dependency-manager/compare/loose-dependency-manager-v0.2.1...loose-dependency-manager-v0.3.0) (2024-05-15)
+
+
+### Features
+
+* add environment variables control ([a992952](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/a992952e9e3a7a196dec9ed80c87eac0eeb60501))
+
 ## [0.2.1](https://github.com/01Joseph-Hwang10/loose-dependency-manager/compare/loose-dependency-manager-v0.2.0...loose-dependency-manager-v0.2.1) (2024-05-15)
 
 

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "loose-dependency-manager"
-version = "0.2.1"
+version = "0.3.0"
 description = "Tool for managing code dependencies in a loosely-coupled way."
 classifiers = [
   'Development Status :: 5 - Production/Stable',
