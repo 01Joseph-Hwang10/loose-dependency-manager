@@ -11,8 +11,9 @@ def cli():
 
 @cli.command("install")
 @click.argument("dependencies", nargs=-1)
-def install(dependencies: list[str]):
-    logger = create_logger()
+@click.option("--debug", is_flag=True, default=False)
+def install(dependencies: list[str], debug: bool):
+    logger = create_logger(debug)
 
     command = InstallCommand(logger=logger)
     error_boundary(

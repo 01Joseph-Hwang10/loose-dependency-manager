@@ -54,6 +54,14 @@ ldm install
 > ldm install clamp
 > ```
 
+### Debugging
+
+If you need to debug the installation process, you can run `ldm install --debug` to see the logs.
+
+```bash
+ldm install --debug
+```
+
 ## API Documentation
 
 > TODO: description

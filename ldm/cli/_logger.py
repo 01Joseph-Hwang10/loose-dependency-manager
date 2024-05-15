@@ -1,14 +1,9 @@
-import os
 from typing import Callable
 from ..logger import Logger, ClickLogger
 
 
-def get_debug_level() -> int:
-    debug = os.environ.get("DEBUG", None)
-    return 1 if debug else 2
-
-
-def create_logger(level: int = get_debug_level()) -> ClickLogger:
+def create_logger(debug: bool) -> ClickLogger:
+    level = 1 if debug else 2
     return ClickLogger(level=level)
 
 
