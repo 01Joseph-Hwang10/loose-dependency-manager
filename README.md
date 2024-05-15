@@ -37,6 +37,8 @@ dependencies:
 config:
   parallel:
     workers: 8
+  environment:
+    from: .env
 ```
 
 Finally, run `ldm install` to install the dependencies

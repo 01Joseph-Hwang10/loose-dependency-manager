@@ -1,7 +1,4 @@
-from os import getcwd
-from os.path import join
 import click
-from dotenv import load_dotenv
 from ..commands import InstallCommand
 from ._logger import create_logger
 from ._error import error_boundary
@@ -9,7 +6,7 @@ from ._error import error_boundary
 
 @click.group()
 def cli():
-    load_dotenv(dotenv_path=join(getcwd(), ".env"))
+    pass
 
 
 @cli.command("install")

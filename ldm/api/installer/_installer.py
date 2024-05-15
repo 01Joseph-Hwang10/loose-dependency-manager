@@ -25,7 +25,7 @@ class Installer(Component):
 
     def install(
         self,
-        config: dict,
+        config: DependencyConfig,
         targets: list[str] | None = None,
     ) -> None:
         def parse_schemes(schemes: dict[str, SchemeConfig]) -> dict[str, Scheme]:
@@ -70,8 +70,6 @@ class Installer(Component):
                 yield parse_dependency(name, entry)
 
         self.logger.info("Installing dependencies...")
-
-        config: DependencyConfig = DependencyConfig(**config)
 
         self.schemes.update(parse_schemes(config.schemes))
 
