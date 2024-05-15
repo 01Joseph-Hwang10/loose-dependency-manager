@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.1](https://github.com/01Joseph-Hwang10/loose-dependency-manager/compare/loose-dependency-manager-v0.2.0...loose-dependency-manager-v0.2.1) (2024-05-15)
+
+
+### Bug Fixes
+
+* exclude test deps ([b7028c0](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/b7028c01845a5cd917784f1373d794b5cbd838a5))
+* schemes option is optional ([f239785](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/f239785645db45e43f70fdfd824d978947bd1fcc))
+
+
+### Documentation
+
+* add install specific deps docs ([6dfd994](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/6dfd9941aab35a73db1337ceecd3ffc560ae2794))
+
 ## [0.2.0](https://github.com/01Joseph-Hwang10/loose-dependency-manager/compare/loose-dependency-manager-v0.1.1...loose-dependency-manager-v0.2.0) (2024-05-10)
 
 
