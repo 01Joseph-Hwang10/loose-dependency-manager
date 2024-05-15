@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.4.0](https://github.com/01Joseph-Hwang10/loose-dependency-manager/compare/loose-dependency-manager-v0.3.0...loose-dependency-manager-v0.4.0) (2024-05-15)
+
+
+### Features
+
+* add debug flag ([29b3a8a](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/29b3a8acfc9fbbbc74a8e82d9ba3e922a03a5a82))
+* add debug log in error ([9e43fa5](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/9e43fa55e46031a506f8d8d3e4379b18afbbe96f))
+* improved logging ([74bcf0e](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/74bcf0e9737f3c78cc6fc3b814a3e50c8f813805))
+* more verbose logging ([d42e255](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/d42e255775dbc2a688a0e53fdec2e6638f0c4559))
+
+
+### Bug Fixes
+
+* environment variable loading ([f8e5f06](https://github.com/01Joseph-Hwang10/loose-dependency-manager/commit/f8e5f06eb71e2d8487e16c1d37d40d71aa9b3b33))
+
 ## [0.3.0](https://github.com/01Joseph-Hwang10/loose-dependency-manager/compare/loose-dependency-manager-v0.2.1...loose-dependency-manager-v0.3.0) (2024-05-15)
 
 
