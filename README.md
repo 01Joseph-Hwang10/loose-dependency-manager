@@ -7,6 +7,8 @@
 [![Supported Interpreters](https://img.shields.io/pypi/implementation/loose-dependency-manager.svg)](https://pypi.org/project/loose-dependency-manager/)
 [![License](https://img.shields.io/pypi/l/loose-dependency-manager.svg)](https://github.com/pawelzny/loose-dependency-manager/blob/master/LICENSE)
 
+> [!WARNING]
+> Deprecated. Use <https://github.com/ldm-org/ldm> instead
 
 Loose Dependency Manager (or `ldm` in short) is a tool for managing code dependencies in a loosely-coupled way.
 
